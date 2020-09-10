@@ -1,0 +1,7 @@
+﻿
+1) Link para download do Docker Desktop para o Windows
+https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe
+
+2) Comando para baixar a imagem do Rabbit e configurar as portas. (Execultar no prompt de comando)
+
+docker run -d --hostname localhost --name local-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
